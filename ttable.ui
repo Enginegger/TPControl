@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TTable</class>
+ <widget class="QWidget" name="TTable">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1120</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTableWidget" name="tableWidget">
+     <row>
+      <property name="text">
+       <string>1</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>2</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>3</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>4</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>5</string>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>Статус</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Дверь ТП</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Связь нас.п.</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Связь ТП</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Нас.п., ТП</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>&quot;&lt;html&gt;Макс. &lt;br&gt;Ток&lt;/html&gt;&quot;</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Тек. ток</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Мин. ток</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Макс. напряж.</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Тек. напряж.</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Мин. напряж</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Макс. темп.</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Тек. темп</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Мин. темп</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
